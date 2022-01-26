@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 10%;
+}
+
+.form-align {
+    display: inline-block;
+    text-align:left;
+    width: 70%;
+}
+
+.row-align {
+    display: flex;
+}
+
+.rank {
+    width: 100%;
+}
+
+.v-unsat {
+    width: 150%;
+}
+
+.unsat {
+    width: 150%;
+}
+
+input[type="text"] {
+    width: 95%;
+}
+
+select {
+    width: 70%;
+}
+
+#department, textarea {
+    width: 97%; 
+    height: 100px;
+}

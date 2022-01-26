@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="./Styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <br>
+            <h1>Performance Review</h1>
+            <form action="https://www.google.com">
+                <div class="form-align">
+                    <div class="row-align">
+                        <span style="width: 100%;">
+                            <label for="first_name">First Name</label>
+                            <br>
+                            <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+                        </span>
+                        
+                        <span style="width: 100%;">
+                            <label for="last_name">Last Name</label>
+                            <br>
+                            <input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+                        </span>    
+                    </div>
+                    
+                    <br>
+
+                    <div class="row-align">
+                        <span style="width: 100%;">
+                            <label for="department">Department</label>
+                            <br>
+                            <select id="department" name="department" placeholder="Department">
+                                <option value="CAP">CAP</option>
+                                <option value="IH">IH</option>
+                                <option value="BAG">BAG</option>
+                                <option value="CTA">CTA</option>
+                            </select>    
+                        </span>
+                        
+                        <span style="width: 100%;">
+                            <label for="manager">Manager</label>
+                            <br>
+                            <input type="text" name="manager" id="manager" placeholder="Manager" required>
+                        </span>
+                    </div>
+                    
+                    <br>
+                    <span>Employee's Hire Date</span>
+                    <br><br>
+                    
+                    <div class="row-align">
+                        <span style="width: 100%;">
+                            <label for="day">Day</label>
+                            <select id="day" name="day" placeholder="Day"></select>    
+                        </span>
+                        
+                        <span style="width: 100%;">
+                            <label for="month">Month</label>
+                            <select id="month" name="month" placeholder="Month"></select>    
+                        </span>
+                        
+                        <span style="width: 100%;">
+                            <label for="year">Year</label>
+                            <select id="year" name="year" placeholder="Year"></select>    
+                        </span>
+                    </div>
+                    <br>
+                    <span>Overall, I would rank this employee's performance as:</span>
+                    <br><br>
+                    <div class="row-align">
+                        <span class="rank">
+                            <input type="radio" name="performance" id="performance" value="Very Good" required>
+                            <label for="performance">Very Good</label>    
+                        </span>
+                        
+                        <span class="rank">
+                            <input type="radio" name="performance" id="performance" value="Good" required>
+                            <label for="performance">Good</label>
+                        </span>
+
+                        <span class="rank">
+                            <input type="radio" name="performance" id="performance" value="Fair" required>
+                            <label for="performance">Fair</label>    
+                        </span>
+                        
+                        <span class="unsat">
+                            <input type="radio" name="performance" id="performance" value="Unsatisfactory" required>
+                            <label for="performance">Unsatisfactory</label>    
+                        </span>
+                        
+                        <span class="v-unsat">
+                            <input type="radio" name="performance" id="performance" value="Very Unsatisfactory" required>
+                            <label for="performance">Very Unsatisfactory</label>
+                        </span>
+                        
+                    </div>
+                    
+                    <br>
+                    <label for="detail">Please go into more detail on why you chose this ranking</label>
+                    <br><br>
+                    <textarea id="detail" required></textarea>
+                </div>
+                <br><br>
+                <div>
+                    <input id="submit" type="submit" value="Submit Review">
+                </div>
+                <br>
+            </form>
+        </div>
+        
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>
