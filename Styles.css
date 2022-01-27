@@ -2,7 +2,12 @@
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
     margin: 10%;
+}
+
+body {
+    background-color: aliceblue;
 }
 
 .form-align {
@@ -36,6 +41,6 @@ select {
 }
 
 #department, textarea {
-    width: 97%; 
+    width: 97%;
     height: 100px;
 }
